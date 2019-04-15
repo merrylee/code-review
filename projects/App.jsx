@@ -19,10 +19,10 @@ const Menu = () => (
             <Link to="/menu/food">Food</Link>
             <Link to="/menu/drinks">Drinks</Link>
             <Link to="/menu/sides">Sides</Link>
-            <Route
+        </nav>
+        <Route
                 path="/:page?/:subpage?"
                 render={({ match }) => <h1>{match.params.subpage}</h1>} />
-        </nav>
     </div>
 )
 
