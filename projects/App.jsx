@@ -28,7 +28,7 @@ class Profile extends React.Component {
         return (
             <div>
                 <div>프로필 정보: {userInfo.login}</div>
-                <div><img alt="" width="230" height="230" class="" src={userInfo.avatar_url} /></div>
+                <div><img alt="" width="230" height="230" src={userInfo.avatar_url} /></div>
                 <div>이름: {userInfo.name}</div>
                 <div>이메일: {userInfo.email === null ? '미등록' : userInfo.email}</div>
             </div>
