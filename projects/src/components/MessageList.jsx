@@ -44,8 +44,9 @@ const List = styled.div`
     }
 `;
 
-const MessageList = ({ items }) => (
+const MessageList = ({ items, loading }) => (
     <List className="MessageList">
+
         {items ? 
             <div className="MessageList">
                 <ul>
